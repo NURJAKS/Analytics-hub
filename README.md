@@ -30,42 +30,25 @@
 1. Клонировать репозиторий:
 
 ```bash
-git clone https://github.com/your_username/final-project-datascience.git
-cd final-project-datascience
+git clone https://github.com/NURJAKS/Analytics-hub.git
+cd Analytics-hub/
+```
 Установить зависимости:
 
-bash
-Копировать
-Редактировать
-pip install -r requirements.txt
-Создать файл для API-ключа:
-
-bash
-Копировать
-Редактировать
-📁 .streamlit/secrets.toml
-toml
-Копировать
-Редактировать
-API_KEY = "your_openweather_api_key"
+```
+pip install streamlit requests matplotlib feedparser wordcloud
+```
 Запустить проект:
-
-bash
-Копировать
-Редактировать
+```
 streamlit run app.py
+```
+
 📦 Структура проекта
-php
-Копировать
-Редактировать
-📦final-project-datascience/
+📦Analytics-hub/
  ┣ 📄 app.py                  # Главный интерфейс с вкладками
  ┣ 📄 case1_gas.py            # Кейс 1: Цены на бензин
  ┣ 📄 case2_weather.py        # Кейс 2: Прогноз погоды
  ┣ 📄 case3_rss.py            # Кейс 3: RSS-аналитика
- ┣ 📄 requirements.txt        # Зависимости
- ┣ 📁 .streamlit/
- ┃ ┗ 📄 secrets.toml          # API ключ (не пушить в GitHub)
  ┗ 📄 README.md
 ✅ Преимущества
 Поддержка десктопа и мобильных устройств
