@@ -38,6 +38,8 @@ cd Analytics-hub/
 ```
 pip install streamlit requests matplotlib feedparser wordcloud
 ```
+или ``` pip install -r requirements.txt ```
+
 Запустить проект:
 ```
 streamlit run app.py
