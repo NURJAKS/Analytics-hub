@@ -61,3 +61,5 @@ streamlit run app.py
 
 Соответствие всем критериям:
 ✔ Парсинг | ✔ Аналитика | ✔ Графика | ✔ Креатив | ✔ Мобильность
+
+можете протестировать здесь: https://analytics-app-up7s6nx87b2njyqwebgy7b.streamlit.app/
